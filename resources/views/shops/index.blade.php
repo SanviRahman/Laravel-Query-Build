@@ -1,6 +1,8 @@
 @extends('welcome')
 @section('content')
 <div class="container mt-4">
+    <h2>Shop List</h2>
+    <a href="{{ route('shop.create') }}" class="btn btn-success mb-3">Add New Shop</a>
     <table class="table">
         <thead>
             <tr>

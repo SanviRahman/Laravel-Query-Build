@@ -14,7 +14,7 @@ return new class extends Migration
             $table->string('shop_name')->nullable()->comment('shop name');
             $table->string('shop_number',30)->nullable();
             $table->string('shop_address')->nullable();
-            $table->string('shop_phone',30)->nullable();   // FIXED
+            $table->string('shop_phone',30)->nullable(); 
             $table->string('shop_email')->nullable();
             $table->string('shop_TIN',20)->nullable();
             $table->timestamps();
